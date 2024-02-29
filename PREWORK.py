@@ -18,12 +18,12 @@ first_odds()
 # Question 3
 # Please write a Python function, max_num_in_list to return the max number of a given list. The first line of the code has been defined as below.
 print('\n')
-def max_num_in_list(a_list):
-    return (a_list) 
-a_list = [1,3,5,4,2]
-print(max(a_list))
-max_num_in_list
-          
+
+def max_num_in_list(alist):
+    return(print(max(alist)))
+alist = [1,3,10,4,2]
+max_num_in_list(alist)
+
 # Question 4
 # Write a function to return if the given year is a leap year. A leap year is divisible by 4, but not divisible by 100, unless it is also divisible by 400. The return should be boolean Type (true/false).
 print('\n')
